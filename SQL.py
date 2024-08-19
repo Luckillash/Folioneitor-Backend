@@ -108,15 +108,15 @@ def main(caf_filename, ip, database):
 
             print("Dato insertado correctamente en folios_asignados.")
 
-            sql = """
-            UPDATE saldo_folios
-            SET saldo = saldo + ?
-            """
-            cursor.execute(sql, diferencia_folios)
+            # sql = """
+            # UPDATE saldo_folios
+            # SET saldo = saldo + ?
+            # """
+            # cursor.execute(sql, diferencia_folios)
 
-            conn.commit()
+            # conn.commit()
 
-            print("Datos ingresados en saldo_folios.")
+            # print("Datos ingresados en saldo_folios.")
 
     except pyodbc.Error as ex:
 

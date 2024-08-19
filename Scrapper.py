@@ -138,7 +138,7 @@ try:
 
         cant_doctos_input.clear()
 
-        cant_doctos_input.send_keys('1000')
+        cant_doctos_input.send_keys('30000')
 
         time.sleep(2)
 
