@@ -1,7 +1,6 @@
-('C:\\Users\\lsalazar\\OneDrive - '
- 'VM\\Escritorio\\Folioneitor\\build\\Scrapper\\PYZ-00.pyz',
+('C:\\Users\\lsalazar\\source\\repos\\Folioneitor-Backend\\build\\Scrapper\\PYZ-00.pyz',
  [('SQL',
-   'C:\\Users\\lsalazar\\OneDrive - VM\\Escritorio\\Folioneitor\\SQL.py',
+   'C:\\Users\\lsalazar\\source\\repos\\Folioneitor-Backend\\SQL.py',
    'PYMODULE'),
   ('__future__',
    'C:\\Users\\lsalazar\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\__future__.py',
