@@ -138,7 +138,57 @@ try:
 
         cant_doctos_input.clear()
 
-        cant_doctos_input.send_keys('30000')
+        cantidad_folios = '30000'
+
+        if sys.argv[1] == '192.168.1.54':
+
+            cantidad_folios = '100000'
+            
+        elif sys.argv[1] == '192.168.1.55':
+
+            cantidad_folios = '30000'
+
+        elif sys.argv[1] == '192.168.1.56':
+
+            cantidad_folios = '10000'
+
+        elif sys.argv[1] == '192.168.1.57':
+
+            cantidad_folios = '25000'
+
+        elif sys.argv[1] == '192.168.1.58':
+
+            cantidad_folios = '30000'
+
+        elif sys.argv[1] == '192.168.1.59':
+
+            cantidad_folios = '30000'
+
+        elif sys.argv[1] == '192.168.10.78':
+
+            cantidad_folios = '30000'
+
+        elif sys.argv[1] == '192.168.10.84':
+
+            cantidad_folios = '40000'
+
+        elif sys.argv[1] == '192.168.10.85':
+
+            cantidad_folios = '30000'
+
+        elif sys.argv[1] == '192.168.10.86':
+
+            cantidad_folios = '30000'
+
+        elif sys.argv[1] == '192.168.10.87':
+
+            cantidad_folios = '30000'
+
+        elif sys.argv[1] == '192.168.10.88':
+
+            cantidad_folios = '20000'
+
+        cant_doctos_input.send_keys(cantidad_folios)
 
         time.sleep(2)
 
