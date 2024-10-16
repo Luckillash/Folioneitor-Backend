@@ -94,7 +94,7 @@ try:
 
     pyautogui.moveTo(x, y)
 
-    time.sleep(1)
+    time.sleep(5)
 
     pyautogui.click()
 
